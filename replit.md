@@ -35,6 +35,7 @@ An independent Android app build using the user's authorized SA-MP base, with Re
 - The new brand uses Red Play Samp with a red, warm-orange, and dark-charcoal palette.
 - Use the user's city-and-car RedPlay logo for app, HUD, and launcher marks, with its white page background removed.
 - Use solid `#140b0d` backgrounds with a centered, semi-transparent logo watermark for `bg_abertura`, `bg_config`, `bg_fallback`, `bg_inicio`, and `bg_servidores`.
+- The Settings support label and Android version name are `RedPlay Game 1.v4 Copyright 2026` and `1.v4`; keep the package version code unchanged unless the user asks.
 
 ## Product
 

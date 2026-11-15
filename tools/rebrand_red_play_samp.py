@@ -71,6 +71,8 @@ BRAND_TEXT = (
     ("SAMP Launcher Unity", "Red Play Samp"),
     ("SAMP Unity — downloading game files", "Red Play Samp — downloading game files"),
 )
+APP_VERSION_NAME = "1.v4"
+SUPPORT_VERSION_LABEL = "RedPlay Game 1.v4 Copyright 2026"
 
 
 def rename_smali_directories(root: Path) -> int:
@@ -185,6 +187,21 @@ def apply_rebrand(root: Path) -> None:
         content = content.replace(OLD_PACKAGE, NEW_PACKAGE)
         for old, new in BRAND_TEXT:
             content = content.replace(old, new)
+
+        if path.name == "strings.xml" and path.parent.name.startswith("values"):
+            content, _ = re.subn(
+                r'(<string\s+name="sp_versao">).*?(</string>)',
+                lambda match: f"{match.group(1)}{SUPPORT_VERSION_LABEL}{match.group(2)}",
+                content,
+                count=1,
+            )
+        if path.name == "apktool.yml":
+            content, _ = re.subn(
+                r"(?m)^  versionName:.*$",
+                f"  versionName: {APP_VERSION_NAME}",
+                content,
+                count=1,
+            )
 
         if path.parent.name.startswith("values") and path.name == "colors.xml":
             for name, value in APP_COLORS.items():
