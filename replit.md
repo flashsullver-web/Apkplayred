@@ -33,6 +33,8 @@ An independent Android app build using the user's authorized SA-MP base, with Re
 - The original APK stays unchanged. Repackage and sign the new app separately so it can coexist with the sold app.
 - The user confirmed they retain the right to reuse this app base and its assets for this separate edition.
 - The new brand uses Red Play Samp with a red, warm-orange, and dark-charcoal palette.
+- Use the user's city-and-car RedPlay logo for app, HUD, and launcher marks, with its white page background removed.
+- Use solid `#140b0d` backgrounds with a centered, semi-transparent logo watermark for `bg_abertura`, `bg_config`, `bg_fallback`, `bg_inicio`, and `bg_servidores`.
 
 ## Product
 

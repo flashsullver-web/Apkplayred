@@ -44,3 +44,31 @@ mtime_ms = 1794702706537
 storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:76005ae9-4917-432f-84f6-6e25392020ff/337b904e-7ed4-4e82-ad7b-06cb83fd9734/4551e120-de52-4b67-aef7-2de378ba6eb4"
 storage_version_token = "1794702727573210"
 content_type = "application/octet-stream"
+
+[[outputs]]
+id = "QTN8m5g8P4tV00VAAWgZ2"
+uri = "file://attached_assets/redplay_logo_transparent.png"
+type = "image"
+title = "Logo Red Play sem fundo"
+description = "PNG transparente criado a partir da imagem enviada; as áreas brancas internas foram preservadas."
+logical_id = "89c93f3e-6f00-48f8-8c25-d4bc22e313ab"
+content_hash = "sha256:8a4ccd141e1342c782b69114f1269e5ecb81acd790ab516afb19ba5c2472f9ff"
+size = 561083
+mtime_ms = 1794704118113
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:76005ae9-4917-432f-84f6-6e25392020ff/89c93f3e-6f00-48f8-8c25-d4bc22e313ab/75d11810-6b2c-4e31-9d88-99ed06ba2c08"
+storage_version_token = "1794704201827135"
+content_type = "image/png"
+
+[[outputs]]
+id = "zemlmZTAZ1O4SbbszEWL6"
+uri = "file://generated-artifacts/RedPlaySamp-artwork-review.zip"
+type = "unspecified"
+title = "Artes atualizadas do Red Play Samp"
+description = "Inclui logo transparente, versões para app/HUD/ícone e os cinco fundos sólidos com marca d’água."
+logical_id = "eeaef36e-71f3-4dd7-be49-953afc033601"
+content_hash = "sha256:b72a659edb5abc491a4a7e391f4921c60c150866232a95453651fa0c976962a9"
+size = 4518609
+mtime_ms = 1794704181981
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:76005ae9-4917-432f-84f6-6e25392020ff/eeaef36e-71f3-4dd7-be49-953afc033601/511d3376-e40f-4b4b-aa9c-49ca08e53112"
+storage_version_token = "1794704202477356"
+content_type = "application/octet-stream"
