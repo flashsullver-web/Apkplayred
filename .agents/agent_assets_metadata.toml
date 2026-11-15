@@ -30,3 +30,17 @@ storage_uri = "gcs://replit-rams-assets-spock/rams/assets/conversation:4e77f525-
 storage_version_token = "1794700267296711"
 content_type = "application/octet-stream"
 source_uri = "file://Red_Play_Samp_launcher_decompiled.zip"
+
+[[outputs]]
+id = "bHDb2xLe5TUla75qkCZgm"
+uri = "file://generated-artifacts/RedPlaySamp-original-images.zip"
+type = "unspecified"
+title = "Imagens do APK original"
+description = "191 arquivos PNG e JPG extraídos mantendo as pastas de origem. O APK original não foi alterado."
+logical_id = "337b904e-7ed4-4e82-ad7b-06cb83fd9734"
+content_hash = "sha256:6eb1b10c4a31fd27d76ec55f03cf77b6cffa22e40998976332262c22113de2b5"
+size = 10666143
+mtime_ms = 1794702706537
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:76005ae9-4917-432f-84f6-6e25392020ff/337b904e-7ed4-4e82-ad7b-06cb83fd9734/4551e120-de52-4b67-aef7-2de378ba6eb4"
+storage_version_token = "1794702727573210"
+content_type = "application/octet-stream"
