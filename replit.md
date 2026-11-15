@@ -50,6 +50,8 @@ _Populate as you build — explicit user instructions worth remembering across s
 - Rebuilding changes the APK signature. A new signing key creates a separate test build; it cannot update the previously signed app.
 - The Firebase and Play licensing configuration still needs to be checked for the new package before relying on push notifications or store licensing.
 - Never remove or bypass the existing licensing or integrity checks as part of rebranding.
+- The original SAMP Unity app installs on the user's phone; the RedPlay single-APK test showed an Android compatibility warning while split requirements were present.
+- Removing split metadata is only a standalone test attempt; it does not supply files that may exist in the original ABI/density splits or make the APK production-ready.
 
 ## Pointers
 
