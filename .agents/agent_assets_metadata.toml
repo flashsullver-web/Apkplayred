@@ -1,0 +1,32 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "0vBa0nvgSzfzm0EnyyfoO"
+uri = "file://.local/conversation-workspace/files/SAMP_Launcher_launcher_decompiled.zip"
+type = "unspecified"
+title = "Decompilação do SAMP Launcher"
+description = "ZIP com cinco classes do launcher, AndroidManifest.xml e recursos res/. Exclui o código com.sampunity.game e os assets brutos do jogo."
+logical_id = "33bde0f2-30ae-45ec-b567-0311bc936d66"
+content_hash = "sha256:37f3255786331af92b2facaae75a1bcf0c0db9757f9d46843278baff12b26d93"
+size = 31544857
+mtime_ms = 1794699976884
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/conversation:4e77f525-dbd9-4813-9cb4-9c4b5c9a21de/33bde0f2-30ae-45ec-b567-0311bc936d66/de1f6b21-3e3f-4a1b-97a3-f1fc29a3a173"
+storage_version_token = "1794699997273246"
+content_type = "application/octet-stream"
+source_uri = "file://SAMP_Launcher_launcher_decompiled.zip"
+
+[[outputs]]
+id = "mh6t1ulKgLSHEVrgOyBYs"
+uri = "file://.local/conversation-workspace/files/Red_Play_Samp_launcher_decompiled.zip"
+type = "unspecified"
+title = "Red Play Samp — pacote decompilado atualizado"
+description = "Nome do app e notificação de download atualizados; mantém cinco classes do launcher e recursos Android. Exclui o código com.sampunity.game e assets brutos do jogo."
+logical_id = "6d0cfe2c-c88b-40b8-9808-0fbf3121175b"
+content_hash = "sha256:73a26a5333e12caa85242d4c8273890c7dfc25baff87a37bc424452ebf57e672"
+size = 31544975
+mtime_ms = 1794700224481
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/conversation:4e77f525-dbd9-4813-9cb4-9c4b5c9a21de/6d0cfe2c-c88b-40b8-9808-0fbf3121175b/ebee25aa-109c-454d-bfe5-659929a56be3"
+storage_version_token = "1794700267296711"
+content_type = "application/octet-stream"
+source_uri = "file://Red_Play_Samp_launcher_decompiled.zip"
