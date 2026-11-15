@@ -72,3 +72,17 @@ mtime_ms = 1794704181981
 storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:76005ae9-4917-432f-84f6-6e25392020ff/eeaef36e-71f3-4dd7-be49-953afc033601/511d3376-e40f-4b4b-aa9c-49ca08e53112"
 storage_version_token = "1794704202477356"
 content_type = "application/octet-stream"
+
+[[outputs]]
+id = "qZJFY-upKyBT0syoW1OL2"
+uri = "file://generated-artifacts/RedPlayGame-1v4-test.apk"
+type = "unspecified"
+title = "APK de teste RedPlay Game 1.v4"
+description = "Build assinado e verificado com o pacote com.redplay.game. Mantém os requisitos de splits originais; a instalação não foi testada em dispositivo."
+logical_id = "a7a54e0b-67cb-46b8-b508-826f446423b4"
+content_hash = "sha256:4cd5b4f52ed03fc8a7461afa23658ad1fa94d093a19c4a19b66d366596d01bb4"
+size = 46166000
+mtime_ms = 1794705827180
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:76005ae9-4917-432f-84f6-6e25392020ff/a7a54e0b-67cb-46b8-b508-826f446423b4/7735f0fa-93da-4311-87c4-e281d8dd9e84"
+storage_version_token = "1794705868524061"
+content_type = "application/octet-stream"
