@@ -100,3 +100,17 @@ mtime_ms = 1794796132811
 storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:76005ae9-4917-432f-84f6-6e25392020ff/5fa49f39-5c82-4795-95b9-0c1e765fd4e0/08c689dd-6e23-4e8f-897e-421756b3d578"
 storage_version_token = "1794796161996836"
 content_type = "application/octet-stream"
+
+[[outputs]]
+id = "41GVxq6punljB_p7vPAlg"
+uri = "file://generated-artifacts/RedPlayGame-1v4-no-store-ui-test.apk"
+type = "unspecified"
+title = "APK de teste sem prompts da Play Store"
+description = "Desativa a checagem de atualização e o pedido de avaliação do launcher. PairIP/licença foi mantido e ainda pode redirecionar."
+logical_id = "17958785-9e56-47d8-9bbe-ebed7edc8db2"
+content_hash = "sha256:9f9184aeae3ee2a0d7f12820d49342bedb467ab9d19cf17ee5709cdf7cea8fa2"
+size = 46166000
+mtime_ms = 1794796727135
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:76005ae9-4917-432f-84f6-6e25392020ff/17958785-9e56-47d8-9bbe-ebed7edc8db2/bf59c6e0-5af0-4c35-8614-e9739ad92577"
+storage_version_token = "1794796769314408"
+content_type = "application/octet-stream"

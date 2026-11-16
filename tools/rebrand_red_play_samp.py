@@ -188,6 +188,19 @@ def apply_rebrand(root: Path) -> None:
         for old, new in BRAND_TEXT:
             content = content.replace(old, new)
 
+        if path.name == "SplashActivity.smali":
+            content = content.replace(
+                "invoke-direct {p0}, Lcom/sampunity/launcher/activity/SplashActivity;->checkPlayStoreUpdate()V",
+                "invoke-direct {p0}, Lcom/sampunity/launcher/activity/SplashActivity;->CheckVersion()V",
+            )
+        if path.name == "MainActivity.smali":
+            content = re.sub(
+                r"(?s)(\.method private requestReview\(\)V\n\s+\.locals \d+\n)",
+                r"\1    return-void\n",
+                content,
+                count=1,
+            )
+
         if path.name == "strings.xml" and path.parent.name.startswith("values"):
             content, _ = re.subn(
                 r'(<string\s+name="sp_versao">).*?(</string>)',
